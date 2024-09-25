@@ -42,7 +42,7 @@ namespace ShopArmor
         {
             if (JsonArmor == null || SHOP_API == null) return;
 
-            SHOP_API.CreateCategory(CategoryName, "Броня");
+            SHOP_API.CreateCategory(CategoryName, "Р‘СЂРѕРЅСЏ");
 
             var sortedItems = JsonArmor
                 .Properties()
